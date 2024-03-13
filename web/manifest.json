@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "unitiled",
     "short_name": "unitiled",
+=======
+    "name": "unitiled11",
+    "short_name": "unitiled11",
+>>>>>>> 21612222abb2386b57a622aec3c73635f0a5880e
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

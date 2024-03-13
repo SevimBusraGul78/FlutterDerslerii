@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "unitiled" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "unitiled" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "unitiled.exe" "\0"
             VALUE "ProductName", "unitiled" "\0"
+=======
+            VALUE "FileDescription", "unitiled11" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "unitiled11" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "unitiled11.exe" "\0"
+            VALUE "ProductName", "unitiled11" "\0"
+>>>>>>> 21612222abb2386b57a622aec3c73635f0a5880e
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
