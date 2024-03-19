@@ -1,8 +1,9 @@
 //import 'package:derslerim/SwitchiDersi.dart';
 import 'package:flutter/material.dart';
+import 'package:unitiled11/sayfage%C3%A7i%C5%9Fleri/AnaSayfa.dart';
 
-import 'SnackBarDersi.dart';
-import 'alertDialogDersi.dart';
+//import '../SnackBarDersi.dart';
+import '../yapılar/alertDialogDersi.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         content: Text("Merhaba!"),
 
       ),*/
-      home:AlertDialogWidget(),
+      home:AnaSayfa(),
     );
   }
 }
