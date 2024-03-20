@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:unitiled11/sayfage%C3%A7i%C5%9Fleri/sayfaA.dart';
 
+import 'Kişiler.dart';
+
 class AnaSayfa extends StatefulWidget {
   const AnaSayfa({super.key});
 
@@ -23,7 +25,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
             ElevatedButton(
               child: Text("Sayfa A ya git"),
               onPressed: (){
-               Navigator.push(context,MaterialPageRoute(builder:(context) => SayfaA()));
+                var kisi=Kisiler(isim:"ahmet",yas:18,boy:1.78,bekarMi:true,);
+               Navigator.push(context,MaterialPageRoute(builder:(context) => SayfaA(kisi)));
               },
             ),
           ],

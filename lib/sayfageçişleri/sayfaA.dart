@@ -2,11 +2,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:unitiled11/sayfage%C3%A7i%C5%9Fleri/SayfaB.dart';
 
+import 'Kişiler.dart';
+
 class SayfaA extends StatefulWidget {
-  const SayfaA({super.key});
+  Kisiler kisi;
+
+  SayfaA(this.kisi);
 
   @override
-  State<SayfaA> createState() => _SayfaAState();
+  _SayfaAState createState() => _SayfaAState();
 }
 
 class _SayfaAState extends State<SayfaA> {
@@ -22,11 +26,15 @@ class _SayfaAState extends State<SayfaA> {
           children: [
             ElevatedButton(
               child: Text("Sayfa B"),
-              onPressed: (){
-                print("sayfa b ye git");
-                Navigator.push(context,MaterialPageRoute(builder:(context) => SayfaB()));
+              onPressed: () {
+                print("Sayfa B'ye git");
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SayfaB()),
+                );
               },
             ),
+
           ],
         ),
       ),
