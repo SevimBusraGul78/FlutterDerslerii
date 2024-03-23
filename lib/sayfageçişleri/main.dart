@@ -1,8 +1,9 @@
 
-
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import '../yapılar/AppBar.dart';
+import '../yapılar/CardYapisi.dart';
+import '../yapılar/ListView.dart';
 import '../yapılar/form yapısı.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AppBarDersi(),
+      home: MyListView(),
     );
   }
 }

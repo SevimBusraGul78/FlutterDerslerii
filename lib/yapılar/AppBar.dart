@@ -22,7 +22,7 @@ class AppBarDersi extends StatefulWidget {
 
 class _AppBarDersiState extends State<AppBarDersi> {
   bool aramaYapiliyormu = false;
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,7 +38,7 @@ class _AppBarDersiState extends State<AppBarDersi> {
         actions: [
           aramaYapiliyormu
               ? IconButton(
-            onPressed: () {
+               onPressed: () {
               setState(() {
                 aramaYapiliyormu = false;
               });

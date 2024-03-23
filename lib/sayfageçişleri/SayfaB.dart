@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:unitiled11/sayfage%C3%A7i%C5%9Fleri/AnaSayfa.dart';
+import 'package:unitiled11/yap%C4%B1lar/AnaSayfa.dart';
 
 class SayfaB extends StatefulWidget {
   const SayfaB({super.key});

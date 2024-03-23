@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:unitiled11/sayfage%C3%A7i%C5%9Fleri/sayfaA.dart';
 
-import 'Kişiler.dart';
+import '../sayfageçişleri/Kişiler.dart';
 
 class AnaSayfa extends StatefulWidget {
   const AnaSayfa({super.key});
