@@ -24,7 +24,7 @@ class _MyListViewState extends State<MyListView> {
           ListTile(
             leading: Icon(Icons.wb_cloudy),
             title: Text("Güneş"),
-            subtitle: Text("Güneş Alt Başlık"),
+            subtitle: Text("Güneş "),
             trailing: Icon(Icons.arrow_right),
             onTap: () {
               print("bulutlandın");
@@ -33,7 +33,7 @@ class _MyListViewState extends State<MyListView> {
           ListTile(
             leading: Icon(Icons.star),
             title: Text("yıldız"),
-            subtitle: Text("yıldız Alt Başlık"),
+            subtitle: Text("yıldız"),
             trailing: Icon(Icons.arrow_right),
             onTap: () {
               print("yıldızlandın");
@@ -42,7 +42,7 @@ class _MyListViewState extends State<MyListView> {
           ListTile(
             leading: Icon(Icons.brightness_2),
             title: Text("ay"),
-            subtitle: Text("ay Alt Başlık"),
+            subtitle: Text("ay "),
             trailing: Icon(Icons.arrow_right),
             onTap: () {
               print("aylandın");

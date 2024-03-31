@@ -1,10 +1,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import '../yapılar/AppBar.dart';
-import '../yapılar/CardYapisi.dart';
-import '../yapılar/ListView.dart';
-import '../yapılar/form yapısı.dart';
+import 'package:unitiled11/yap%C4%B1lar/dinamiklistView.dart';
+import 'AppBar.dart';
+import 'CardYapisi.dart';
+import 'GridView.dart';
+import 'ListView.dart';
+import 'form yapısı.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyListView(),
+      home:DinamikListView(),
     );
   }
 }
