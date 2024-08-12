@@ -10,4 +10,5 @@ class Kisiler {
     required this.boy,
     required this.bekarMi,
   });
+  //hangi birini düzelteyim
 }
